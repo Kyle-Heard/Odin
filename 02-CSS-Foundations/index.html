@@ -1,11 +1,59 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
-    <head>
-        <title>CSS Foundations</title>
-        <meta charset="utf-8 ">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <h1>CSS Foundations</h1>
-    </body>
+
+<head>
+    <title>CSS Foundations</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>CSS Foundations</h1>
+
+    <h2>Challenge 1</h2>
+    <div class="box">I use the standard box model.</div>
+    <div class="box alternate">I use the alternate box model.</div>
+    <div class="answer">
+        <p>Force width to match since border-box subtracts padding and border from defined size</p>
+        <p>300px + 40px (margin-left) + 40px (margin-right) + 5px (border-left) + 5px (border-right)</p>
+    </div>
+
+    <h2>Challenge 2</h2>
+    <p>In this task, add to the box:</p>
+    <ul>
+        <li>5px, black, dotted border.</li>
+        <li>top margin of 20px.</li>
+        <li>right margin of 1em.</li>
+        <li>bottom margin of 40px.</li>
+        <li>left margin of 2em.</li>
+        <li>Padding on all sides of 1em.</li>
+    </ul>
+
+    <div class="chall2">Here is the 2nd Box</div>
+    <div class="answer">
+        border: 5px dotted black;<br>
+        margin-top: 20px;<br>
+        margin-right: 1em;<br>
+        margin: 20px 1em 40px 2em;<br>
+        padding: 1em;
+    </div>
+
+    <h2>Challenge 3</h2>
+
+    <div class="box3">
+        <p>Veggies es bonus vobis, <span>proinde vos postulo</span> essum magis kohlrabi welsh onion daikon amaranth
+            tatsoi tomatillo melon azuki bean garlic.</p>
+
+        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean
+            collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+    </div>
+
+    <div class="answer">
+        <p>display: inline-block;</p>
+        <p>Add a display type that allows the content to remain an inline element but also respects top-bottom styling. </p>
+    </div>
+
+
+</body>
+
 </html>
