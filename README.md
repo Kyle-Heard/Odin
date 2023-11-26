@@ -10,7 +10,7 @@ ___
 
 - [x] ~~HTML Foundations~~
     - [X] ~~Project: Recipes~~
-- [ ] CSS Foundations
+- [X] ~~CSS Foundations~~
 - [ ] Flexbox
     - [ ] Project: Landing Page
 - [ ] JavaScript Basics
