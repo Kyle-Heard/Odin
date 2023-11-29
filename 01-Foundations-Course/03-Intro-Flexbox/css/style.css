@@ -35,3 +35,17 @@ div.flex-auto{
 .auto{
     flex: 1;
 }
+
+.axes-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.axes-container div {
+    color: white;
+    border: 3px solid #0ad;
+    background-color: blue;
+    height: 1rem;
+    flex: 1 1 auto;
+    
+}
